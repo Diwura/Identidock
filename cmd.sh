@@ -2,7 +2,7 @@
 set -e
 
 if [ "$ENV" = 'DEV' ]; then
-  echo "Running Development Server"
+  echo "Running Developmento Server"
   exec python "identidock.py"
 else
   echo "Running Production Server"

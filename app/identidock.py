@@ -32,7 +32,7 @@ def mainpage():
 
 @app.route('/monster/<name>')
 def get_identicon(name):
-
+#check to see if the name is already in the cacher, to prevent a new request
     image = cache.get(name)
     if image is None:
         print("Cache miss", flush=True)

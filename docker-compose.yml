@@ -9,7 +9,7 @@ identidock:
  links:
   - dnmonster
   - redis
-
+#name of the other containers.
 dnmonster:
   image: amouat/dnmonster:1.0
 
